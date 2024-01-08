@@ -1,0 +1,30 @@
+Shopping Cart positive test cases:
+1 the shopping cart icon is displayed and clickable
+2 the shopping cart page ui is as expected
+3 users can add item to the cart
+4 the cart reflects quantity changes
+5 users can click on cart icon when cart is empty
+6 users can nevigate to the shopping cart page
+7 user can remove items from the cart
+8 item in the cart have correct name
+9 items are clickable and lead to product page
+10 the order price updates when items are added and remove
+11 will out of stock item to verfy display message
+12 will add item more than inventory to display message
+13  will verify cart product name size color as product page
+14 will verify price should match with cart item and product itemlist price
+
+negative test case for shopping cart
+1 will add  out of stock item to shopping cart
+2 will add product more than inventory
+3 will very application behaviour double click on add to cart button
+4 will verify with number of product
+5 will verify add to cart feature on diffenet browser 
+6 will click on add to cart while network connection is failured
+7 will verify the race condition 1 product is available and 
+two or more user clicked ad to cart will verify applcation handling as expected or not
+8 will verify add to cart item after logout and again login item still present in cart or not
+
+
+
+
